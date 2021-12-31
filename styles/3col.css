@@ -1,0 +1,109 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+}
+
+nav{
+    margin-top: 6.25rem ;
+}
+.main-box {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-box > * {
+    padding: 3.2rem;
+}
+.box-one{
+background-color: hsl(31, 77%, 52%);
+border-radius: .5rem  .5rem 0 0;
+}
+
+.box-one .buttons{
+    color: hsl(31, 77%, 52%);
+}
+
+.headings{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+}
+
+.description{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.buttons{
+    background-color: hsl(0, 0%, 95%);
+    border-color: transparent;
+    border-radius: 1.25rem ;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 60%;
+    text-transform: capitalize;
+}
+
+.buttons:hover{
+    border: 0.125rem solid hsl(0, 0%, 95%);
+    background-color: transparent;
+}
+
+.buttons:hover p{
+    color: hsl(0, 0%, 95%);
+}
+
+
+.box-two{
+    background-color: hsl(184, 100%, 22%);
+ 
+}
+
+.box-two .buttons{
+    color: hsl(184, 100%, 22%);
+}
+
+.box-three {
+    background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 .5rem .5rem;
+}
+
+.box-three .buttons{
+        color: hsl(179, 100%, 13%);
+}
+
+.box-one , .box-two , .box-three {
+    padding 3.25rem: 
+}
+
+@media only screen and (min-width: 600px){
+ .main-box{
+     width: 50%;
+ }
+
+}
+
+@media only screen and (min-width:64.063rem){
+    .main-box{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .box-one{
+        border-radius: 0.5rem 0 0 .5rem;
+
+    }
+    .box-three{
+        border-radius: 0 .5rem .5rem 0;
+    }
+
+    .buttons{
+        margin-top: 3.2rem;
+        width: 70%;
+    }
+
+}
+
