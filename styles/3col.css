@@ -35,6 +35,7 @@ border-radius: .5rem  .5rem 0 0;
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
+    justify-content:center; 
 }
 
 .buttons{
